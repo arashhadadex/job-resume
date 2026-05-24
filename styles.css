@@ -49,24 +49,20 @@ body {
   position: relative;
   margin: 0;
   font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  background: var(--bg);
+  background:
+    radial-gradient(
+      circle 620px at var(--pointer-x) var(--pointer-y),
+      var(--pointer-glow),
+      transparent 58%
+    ),
+    linear-gradient(180deg, color-mix(in srgb, var(--accent) 8%, transparent), transparent 36rem),
+    var(--bg);
   color: var(--text);
   line-height: 1.6;
 }
 
 body::before {
-  position: fixed;
-  inset: 0;
-  z-index: 0;
-  pointer-events: none;
-  background:
-    radial-gradient(
-      circle 520px at var(--pointer-x) var(--pointer-y),
-      var(--pointer-glow),
-      transparent 64%
-    );
-  content: "";
-  transition: opacity 180ms ease;
+  display: none;
 }
 
 .site-header,
@@ -715,13 +711,15 @@ dd {
 }
 
 @media (pointer: coarse) {
-  body::before {
+  body {
     background:
       radial-gradient(
-        circle 340px at 50% 12%,
+        circle 420px at 50% 12%,
         var(--pointer-glow),
-        transparent 70%
-      );
+        transparent 62%
+      ),
+      linear-gradient(180deg, color-mix(in srgb, var(--accent) 8%, transparent), transparent 36rem),
+      var(--bg);
   }
 }
 
