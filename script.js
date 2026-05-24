@@ -60,4 +60,11 @@ document.addEventListener("DOMContentLoaded", () => {
       setTheme(currentTheme === "dark" ? "light" : "dark");
     });
   });
+
+  if (window.matchMedia("(pointer: fine)").matches) {
+    window.addEventListener("pointermove", (event) => {
+      document.documentElement.style.setProperty("--pointer-x", `${event.clientX}px`);
+      document.documentElement.style.setProperty("--pointer-y", `${event.clientY}px`);
+    });
+  }
 });
