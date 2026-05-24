@@ -1,28 +1,32 @@
-Resume Website
-==============
+# Arash Hadadsoleymani
 
-A static resume website for job applications. It is built with plain HTML, CSS,
-and JavaScript, so it can be opened directly in a browser or hosted on GitHub
-Pages.
+**Full-stack Developer | Data Scientist | Cybersecurity & Network Infrastructure**
 
-Files
------
+I build practical web products, backend systems, automation tools, and data-driven applications. My work focuses on Python, JavaScript, APIs, Linux deployments, Docker, web scraping, data workflows, DNS, VPNs, and secure connectivity.
 
-- `index.html`: Page structure and resume content.
-- `styles.css`: Responsive styling and print styles.
-- `script.js`: Small browser behavior for the print button and footer year.
+## What I Work On
 
-Customize
----------
+- Full-stack applications with Python, JavaScript, React, Node.js, and FastAPI
+- Automation, web scraping, API integrations, and data-processing pipelines
+- Data science workflows including preprocessing, visualization, and machine learning
+- Linux servers, Docker deployments, reverse proxies, DNS, VPNs, and networking
+- Technical writing at [datatodeploy.com](https://datatodeploy.com)
 
-1. Replace placeholder contact details in `index.html`.
-2. Update the summary, experience, projects, skills, and education sections.
-3. Replace project links with real repositories or live demos.
-4. Open `index.html` in a browser and use the Print button to test the resume
-   PDF layout.
+## Skills
 
-Deploy
-------
+**Backend:** Python, FastAPI, REST APIs, Node.js  
+**Frontend:** React, JavaScript, HTML, CSS  
+**Data:** SQL, machine learning, data engineering, visualization  
+**Infrastructure:** Linux, Docker, Git, server deployment  
+**Networking:** DNS, VPNs, IP networking, secure remote access
 
-For GitHub Pages, push these files to a repository and enable Pages from the
-repository settings. Use the branch root as the publishing source.
+## Background
+
+Independent full-stack developer working on web applications, automation systems, algorithmic trading tools, scraping pipelines, and data-focused projects. I have a B.Sc. in Electrical Engineering and transitioned into software engineering through project-based learning and practical development work.
+
+## Contact
+
+- [datatodeploy.com](https://datatodeploy.com)
+- [LinkedIn](https://www.linkedin.com/in/arashhadadex/)
+- [GitHub](https://www.github.com/arashhadadex)
+- [Email](mailto:arashhadadsoleymani@yahoo.com)
