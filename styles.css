@@ -465,11 +465,13 @@ dd {
   padding: 9px 12px;
 }
 
+.language-list,
 .education-list {
   display: grid;
   gap: 16px;
 }
 
+.language-item,
 .education-list article {
   padding: 22px;
   border: 1px solid var(--line);
@@ -483,11 +485,40 @@ dd {
     box-shadow 180ms ease;
 }
 
+.language-item:hover,
 .education-list article:hover {
   transform: translateY(-4px);
   border-color: color-mix(in srgb, var(--accent) 45%, var(--line));
   background: var(--glass-hover);
   box-shadow: var(--shadow-hover);
+}
+
+.language-item {
+  display: grid;
+  gap: 16px;
+}
+
+.language-item p {
+  margin: 6px 0 0;
+  color: var(--muted);
+  font-weight: 700;
+}
+
+.language-meter {
+  position: relative;
+  height: 8px;
+  overflow: hidden;
+  border-radius: 999px;
+  background: var(--surface-muted);
+}
+
+.language-meter::after {
+  position: absolute;
+  inset: 0 auto 0 0;
+  width: var(--level);
+  border-radius: inherit;
+  background: var(--accent);
+  content: "";
 }
 
 .education-list span {
