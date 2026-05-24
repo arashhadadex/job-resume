@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Resume website for Arash Hadad Soleymani, including experience, projects, skills, and contact information."
+    />
+    <title>Arash Hadad Soleymani | Resume</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Back to top">AHS</a>
+      <nav class="nav" aria-label="Primary navigation">
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="print-button" type="button" id="printResume">Print</button>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <p class="eyebrow">Open to future opportunities</p>
+          <h1 id="hero-title">Arash Hadad Soleymani</h1>
+          <p class="headline">
+            Software developer focused on building practical, reliable web
+            products with clean interfaces and maintainable code.
+          </p>
+          <div class="hero-actions" aria-label="Contact links">
+            <a class="button primary" href="mailto:your.email@example.com">Email me</a>
+            <a class="button secondary" href="#projects">View projects</a>
+          </div>
+        </div>
+        <aside class="profile-panel" aria-label="Profile summary">
+          <div class="avatar" aria-hidden="true">AH</div>
+          <dl class="quick-facts">
+            <div>
+              <dt>Location</dt>
+              <dd>Your city, country</dd>
+            </div>
+            <div>
+              <dt>Role</dt>
+              <dd>Software Developer</dd>
+            </div>
+            <div>
+              <dt>Focus</dt>
+              <dd>Frontend, backend, automation</dd>
+            </div>
+          </dl>
+        </aside>
+      </section>
+
+      <section class="section summary-section" aria-labelledby="summary-title">
+        <div class="section-heading">
+          <p class="eyebrow">Profile</p>
+          <h2 id="summary-title">Summary</h2>
+        </div>
+        <p class="summary-text">
+          Replace this paragraph with a concise professional summary. Mention
+          your target role, strongest technical skills, relevant domain
+          experience, and the type of impact you have delivered or want to
+          deliver.
+        </p>
+      </section>
+
+      <section class="section" id="experience" aria-labelledby="experience-title">
+        <div class="section-heading">
+          <p class="eyebrow">Work history</p>
+          <h2 id="experience-title">Experience</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-meta">
+              <span>2024 - Present</span>
+              <span>Company Name</span>
+            </div>
+            <div class="timeline-content">
+              <h3>Software Developer</h3>
+              <p>
+                Describe the product, team, and technologies. Keep this focused
+                on outcomes, measurable results, and responsibilities that match
+                your future applications.
+              </p>
+              <ul>
+                <li>Built and maintained responsive user interfaces.</li>
+                <li>Improved application reliability through testing and reviews.</li>
+                <li>Collaborated with product and engineering stakeholders.</li>
+              </ul>
+            </div>
+          </article>
+          <article class="timeline-item">
+            <div class="timeline-meta">
+              <span>2022 - 2024</span>
+              <span>Company Name</span>
+            </div>
+            <div class="timeline-content">
+              <h3>Junior Developer</h3>
+              <p>
+                Replace this entry with another role, internship, freelance
+                project, research assistantship, or relevant volunteer work.
+              </p>
+              <ul>
+                <li>Implemented features across web application views.</li>
+                <li>Debugged issues and documented repeatable fixes.</li>
+                <li>Supported deployments and basic operational tasks.</li>
+              </ul>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="eyebrow">Selected work</p>
+          <h2 id="projects-title">Projects</h2>
+        </div>
+        <div class="project-grid">
+          <article class="project-card">
+            <div class="card-topline">
+              <span class="tag">Web App</span>
+              <a href="#" aria-label="Project link">Link</a>
+            </div>
+            <h3>Project Name</h3>
+            <p>
+              A short description of the project, the problem it solves, and
+              the technical contribution you made.
+            </p>
+            <ul class="tech-list" aria-label="Technologies">
+              <li>JavaScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+            </ul>
+          </article>
+          <article class="project-card">
+            <div class="card-topline">
+              <span class="tag">Automation</span>
+              <a href="#" aria-label="Project link">Link</a>
+            </div>
+            <h3>Project Name</h3>
+            <p>
+              Explain the practical result, such as saved time, cleaner data, a
+              better workflow, or a more reliable process.
+            </p>
+            <ul class="tech-list" aria-label="Technologies">
+              <li>Python</li>
+              <li>API</li>
+              <li>Testing</li>
+            </ul>
+          </article>
+          <article class="project-card">
+            <div class="card-topline">
+              <span class="tag">Portfolio</span>
+              <a href="#" aria-label="Project link">Link</a>
+            </div>
+            <h3>Project Name</h3>
+            <p>
+              Mention your role, the main engineering decisions, and what a
+              reviewer should notice in the code or live demo.
+            </p>
+            <ul class="tech-list" aria-label="Technologies">
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Git</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="section two-column" id="skills" aria-labelledby="skills-title">
+        <div class="section-heading">
+          <p class="eyebrow">Capabilities</p>
+          <h2 id="skills-title">Skills</h2>
+        </div>
+        <div class="skills-wrap">
+          <div>
+            <h3>Technical</h3>
+            <ul class="skill-cloud">
+              <li>JavaScript</li>
+              <li>TypeScript</li>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Python</li>
+              <li>SQL</li>
+              <li>Git</li>
+            </ul>
+          </div>
+          <div>
+            <h3>Professional</h3>
+            <ul class="skill-cloud">
+              <li>Problem solving</li>
+              <li>Code review</li>
+              <li>Documentation</li>
+              <li>Communication</li>
+              <li>Planning</li>
+              <li>Debugging</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section two-column" aria-labelledby="education-title">
+        <div class="section-heading">
+          <p class="eyebrow">Background</p>
+          <h2 id="education-title">Education</h2>
+        </div>
+        <div class="education-list">
+          <article>
+            <h3>Degree or Certification</h3>
+            <p>Institution Name</p>
+            <span>Year - Year</span>
+          </article>
+          <article>
+            <h3>Course or Certification</h3>
+            <p>Provider Name</p>
+            <span>Year</span>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact" aria-labelledby="contact-title">
+        <div>
+          <p class="eyebrow">Next step</p>
+          <h2 id="contact-title">Contact</h2>
+          <p>
+            Replace these links with your real email, LinkedIn, GitHub, and
+            portfolio links before sending applications.
+          </p>
+        </div>
+        <ul class="contact-list">
+          <li><a href="mailto:your.email@example.com">your.email@example.com</a></li>
+          <li><a href="#">linkedin.com/in/your-profile</a></li>
+          <li><a href="#">github.com/your-username</a></li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>&copy; <span id="year"></span> Arash Hadad Soleymani. Built as a static resume website.</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
