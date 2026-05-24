@@ -712,14 +712,7 @@ dd {
 
 @media (pointer: coarse) {
   body {
-    background:
-      radial-gradient(
-        circle 210px at 50% 12%,
-        var(--pointer-glow),
-        transparent 66%
-      ),
-      linear-gradient(180deg, color-mix(in srgb, var(--accent) 8%, transparent), transparent 36rem),
-      var(--bg);
+    background: var(--bg);
   }
 }
 
